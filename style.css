@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:" Mortserrat" ,sans-serif ; 
+}
+
+li{
+   display: inline-block ;
+}
+nav{
+    display: inline-block ;
+}
+header{
+    margin: 10px 0px 144px 70px ;
+}
+a{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0 20px 0 0;
+    cursor: pointer;
+    color:#001d9e ;
+}
+a:hover{
+    opacity: 0.8;
+
+}
+.botao-login{
+width: 140px;
+height: 44px;
+border-radius: 200px;
+background:#1460a7 ;
+border: none;
+font-size: 20px ;
+font-weight: 600;
+color: rgb(232, 237, 241);
+transition: opacity 0.2s;
+}
+
+.boton-login:hover {
+    opacity: o.3;
+    background-color: rgb(178, 212, 174);
+    }
+    
+    
+    .logo {
+    width: 40%;
+    vertical-align: middle;
+    }
+    
+    .texto {
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    margin:0 0 0 40px;
+    }
+    
+    main {
+    text-align: center;
+    }
+    
+    .botao-explore {
+    width: 150px;
+    height: 37px;
+    cursor: pointer;
+    background-color: rgb(100, 146, 233);
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+    transition: opacity 0.3s;
+    }
+    
+    .explore:hover {
+    
+    opacity: 0.8;
+    }
+    .titulo{
+    
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(109, 96, 96);
+    }
+    .subtitulo{
+    color: rgb(68, 62, 62);
+    line-height: 1.5 ;
+    
+}
+.paragrafo{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: rgb(12, 10, 10);
+text-align: justify;
+margin: 20px 0 40px 0 ;
+max-width: 500px;
+}
