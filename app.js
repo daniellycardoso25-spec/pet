@@ -10,3 +10,12 @@ console.log(dadosApi );
 }
 imagemApi()
   
+
+function whatZap(){
+
+texto = "Olá! Vim pelo site da nomeApp e gostaria de agendar um horário para o meu pet."
+const textoFormatado =encodeURIComponent(texto)
+ const url= "https://wa.me/4499942651?text=I" + textoFormatado;
+ open(url,'_blank');
+ console.log(url);
+}
